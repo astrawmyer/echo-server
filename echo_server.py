@@ -65,7 +65,7 @@ def server(log_buffer=sys.stderr):
                     # message is a trick we learned in the lesson: if you don't
                     # remember then ask your classmates or instructor for a clue.
                     # :)
-                    if len(data)<1:
+                    if len(data)<16:
                         break
             except Exception as e:
                 traceback.print_exc()
